@@ -121,10 +121,86 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Eljas Kauppila</small></div>
+            <div class="container"><small>Copyright &copy; Eemil Kauppila</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mineral Recon</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+									<p class="mb-4">The magic casting system made allows for easier customisation of casting properties.</p>
+									<p class="mb-4">The system is a framework for creating new magic logic and creating the appropriate interactions between characters and the magic. It separates casting from the magic functionality and adds a layer of customisation.</p>
+									<p class="mb-4">Its made in C++ with blueprint integration.</p>
+									<p class="mb-2">The Blueprint of the projectile magic only requires the logic for spawning it and giving the settings from the data asset.</p>
+									<img class="img-fluid mb-4" src="assets/ProjectileBP.png" alt="..." />
+									<p class="mb-2">Projectile magic is set to fire rapidly at 1000 speed every 0.05 seconds and will stop firing after releasing.</p>
+									<div class="row mb-5">
+										<div class="col-lg-6">
+											<div style='position:relative; padding-bottom:calc(57.20% + 44px)'><iframe src='https://frogof-war.itch.io/mineral-recon' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+										</div>
+										<div class="col-lg-6">
+											<img class="img-fluid" src="assets/Projectile.png" alt="..." />
+										</div>
+									</div>
+									<p class="mb-2">Or it can be set to fire one when mouse button is released with lower speed and high gravity.</p>
+									<div class="row mb-5">
+										<div class="col-lg-6">
+											<div style='position:relative; padding-bottom:calc(57.20% + 44px)'><iframe src='https://gfycat.com/ifr/hardharshermine?controls=0&hd=1' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+										</div>
+										<div class="col-lg-6">
+											<img class="img-fluid" src="assets/SingleProjectile.png" alt="..." />
+										</div>
+									</div>
+									<p class="mb-2">A speed modifier can be configured to add 800 speed after the two second cast time is done and it is reactivated and will end after another reactivation.</p>
+									<div class="row mb-5">
+										<div class="col-lg-6">
+											<div style='position:relative; padding-bottom:calc(57.20% + 44px)'><iframe src='https://gfycat.com/ifr/idioticequalinsect?controls=0&hd=1' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+										</div>
+										<div class="col-lg-6">
+											<img class="img-fluid" src="assets/Speed.png" alt="..." />
+										</div>
+									</div>
+									<p class="mb-2">An area magic that is set up to start casting the magic as soon as it is activated and it cannot be selected. It will then spawn the magic area as soon as the casting time ends. The magic area is destroyed when the magic is reactivated.</p>
+									<div class="row mb-5">
+										<div class="col-lg-6">
+											<div style='position:relative; padding-bottom:calc(57.20% + 44px)'><iframe src='https://gfycat.com/ifr/distinctpoliticalalligatorgar?controls=0&hd=1' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+										</div>
+										<div class="col-lg-6">
+											<img class="img-fluid" src="assets/Area.png" alt="..." />
+										</div>
+									</div>
+									<p class="mb-2">A wind magic is set to be selectable and the direction can be adjusted by holding the mouse button down.</p>
+									<div class="row mb-5">
+										<div class="col-lg-6">
+											<div style='position:relative; padding-bottom:calc(57.20% + 44px)'><iframe src='https://gfycat.com/ifr/blandobviousiberianemeraldlizard?controls=0&hd=1' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+										</div>
+										<div class="col-lg-6">
+											<img class="img-fluid" src="assets/Wind.png" alt="..." />
+										</div>
+									</div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -189,33 +265,6 @@
 											<img class="img-fluid" src="assets/Wind.png" alt="..." />
 										</div>
 									</div>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Title</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class="mb-4"></p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
